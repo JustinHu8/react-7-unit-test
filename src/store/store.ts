@@ -5,7 +5,7 @@ const store = configureStore({
   reducer: {
     coursesState: courseSlice,
   },
-  devTools: process.env.NODE_ENV !== 'production', // Enable Redux DevTools in development
+  // devTools: process.env.NODE_ENV !== 'production', // Enable Redux DevTools in development
 });
 
 export type AppDispatch = typeof store.dispatch;

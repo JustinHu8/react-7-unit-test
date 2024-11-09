@@ -1,5 +1,5 @@
 import WelcomeMessage from "../components/WelcomeMessage/WelcomeMessage";
-import CoursePillList from '../components/CoursePillList/CoursePillList.tsx';
+import CoursePillList from '../components/CoursePillList/CoursePillList';
 
 const HomePage = () => {
     
